@@ -1,0 +1,24 @@
+# Credentials, local downloads, and private reports must never be committed.
+credentials*.json
+client_secret*.json
+token*.json
+.mailgrab*
+downloads/
+demo-downloads/
+*.pdf
+*.eml
+*.mbox
+*.log
+*.csv
+*.zip
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+.pytest_cache/
+.DS_Store
+Thumbs.db
